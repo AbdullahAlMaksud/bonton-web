@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest"
+import { describe, expect, it } from "@jest/globals"
 
 import { generateMarkdownReport } from "@/shared/lib/export/markdown"
 import type { Expense, Group, SettlementTransaction } from "@/shared/types"

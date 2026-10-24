@@ -6,9 +6,6 @@ import {
   Users,
   LayoutDashboard,
   Settings,
-  Layers,
-  ArrowUpRight,
-  ArrowDownRight,
   TrendingUp,
 } from "lucide-react";
 import { useMemo } from "react";

@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest"
+import { describe, expect, it } from "@jest/globals"
 
 import { buildStatementImageData } from "@/shared/lib/export/statement-image"
 import type { Balance, Expense, Group, SettlementTransaction } from "@/shared/types"

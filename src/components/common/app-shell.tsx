@@ -1,14 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "next-themes";
 import {
   LayoutDashboard,
   Languages,
   Plus,
-  PlusCircle,
   Users,
   Palette,
   Check,
@@ -57,7 +56,6 @@ const themesList = [
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const router = useRouter();
   const { resolvedTheme, setTheme } = useTheme();
   const { t } = useTranslation();
   const hasHydrated = useSplitlyStore((state) => state.hasHydrated);
